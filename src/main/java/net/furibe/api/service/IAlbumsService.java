@@ -7,4 +7,5 @@ import net.furibe.api.entity.Album;
 public interface IAlbumsService {
    
 	List<Album> buscartodos();
+	void guardar(Album album);
 }
